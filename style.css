@@ -1,5 +1,5 @@
 body{
-    background-color: #333;
+    background-color: #EAE9D8;
     
 }
 header{
@@ -11,15 +11,18 @@ header{
 
 #corpo{
     display: flex;
+    flex-direction: column;
     text-align: center;
     font-size: 15px;
-    margin-left: 15%;
-    margin-right: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    align-items: center;
+    background-color:whitesmoke;
+    
     
 }
     #exemploDT{
-        display: flex;
         position: relative;
         max-width: 500px;
-        padding-top: 40%;
+        
     }
