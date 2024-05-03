@@ -1,0 +1,25 @@
+body{
+    background-color: #333;
+    
+}
+header{
+    background-color: aliceblue;
+    border:2px groove ;
+    text-align: center;
+    font-size: 15px;
+}
+
+#corpo{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 15%;
+    margin-right: 50%;
+    
+}
+    #exemploDT{
+        display: flex;
+        position: relative;
+        max-width: 500px;
+        padding-top: 40%;
+    }
