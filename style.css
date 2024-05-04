@@ -1,5 +1,8 @@
 body{
     background-color: #f8f7f3;
+    display: flex;
+    flex-direction: column;
+    
     
 }
 header{
@@ -8,22 +11,25 @@ header{
     text-align: center;
     font-size: 15px;
 }
-
-#corpo{
-    display: flex;
+.corpo{
+    margin: 50px;
+    display:flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     font-size: 15px;
-    /* margin-left: 10px; */
-    margin-right: 70%;
-    align-items: start;
     background-color:whitesmoke;
     
 }
-    #exemploDT{
+.textoDatawr{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.exemploDT{
         position: relative;
         max-width: 500px;
         border-radius: 10%;
-        
-        
+        /* margin-left: 5%; */
+       justify-content: center; 
     }
