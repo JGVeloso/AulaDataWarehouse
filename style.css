@@ -1,9 +1,9 @@
 body{
-    background-color: #EAE9D8;
+    background-color: #f8f7f3;
     
 }
 header{
-    background-color: aliceblue;
+    background-color: #606060;
     border:2px groove ;
     text-align: center;
     font-size: 15px;
@@ -14,15 +14,16 @@ header{
     flex-direction: column;
     text-align: center;
     font-size: 15px;
-    margin-left: 30%;
-    margin-right: 30%;
-    align-items: center;
+    /* margin-left: 10px; */
+    margin-right: 70%;
+    align-items: start;
     background-color:whitesmoke;
-    
     
 }
     #exemploDT{
         position: relative;
         max-width: 500px;
+        border-radius: 10%;
+        
         
     }
