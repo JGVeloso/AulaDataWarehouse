@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     background-size:cover;
-    background-image: url(/AulaDataWarehouse/imagens/NEuip.jpg);
+    background-image: url(/imagens/NEuip.jpg);
     
 }
 header{
