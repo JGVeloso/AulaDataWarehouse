@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,30 +11,91 @@
     <header>
         <h1>DataWarehouse</h1>
     </header>
-    <nav class="corpo">
-        <div class="dropmenu">
-            <button class="dropbnt">O que é DataWarehouse?</button>
-            <div class="dropconteudo">
-                <p>Um Data Warehouse (DW) emerge como a solução ideal para domar a montanha de dados e gerar valor para o seu negócio. Esse repositório centralizado integra dados de diversas fontes, como vendas, marketing, finanças e operações, em um único local, oferecendo uma visão holística e unificada de toda a organização.</p>
-                <img class="exemploDT" src="/imagens/imagem 1.jpg" alt="imagem DataWarehouseExe" title="exemploDtwarehouse">
-                <p>No mundo dos negócios, a quantidade de dados gerados e armazenados cresce exponencialmente. Essa explosão de dados, impulsionada pela digitalização e pelo uso cada vez mais intenso de tecnologias como IoT, Big Data e Inteligência Artificial, apresenta um desafio: como gerenciar e transformar essa vastidão de informações em insights (entendimento) acionáveis que impulsionam o crescimento e a competitividade?</p>
+    <div class="datawarehouse">
+      <div class="toggleDiv" data-target="content1"><h1>Conceitos básicos de Data Warehouse</h1></div>
+      <div id="content1" class="content hidden">
+        <p>No mundo dos negócios, a quantidade de dados gerados e armazenados cresce exponencialmente. Essa explosão de dados, impulsionada pela digitalização e pelo uso cada vez mais intenso de tecnologias como IoT, Big Data e Inteligência Artificial, apresenta um desafio: como gerenciar e transformar essa vastidão de informações em insights (entendimento)
+            acionáveis que impulsionam o crescimento e a competitividade?</p>
+        <p>Um data warehouse é um repositório central de informações que podem ser analisadas para tomar decisões mais adequadas. Os dados fluem de sistemas transacionais,  bancos de dados relacionais e de outras fontes para o data warehouse, normalmente com uma cadência regular.</p>
+        <h1>Data Warehouse a Solução Essencial:</h1>
+        <p>Um Data Warehouse (DW) emerge como a solução ideal para domar a montanha de dados e gerar valor para o seu negócio. Esse repositório centralizado integra dados de diversas fontes, como vendas, marketing, finanças e operações, em um único local, oferecendo uma visão holística e unificada de toda a organização.</p>
+        
+      </div>
+    </div>
+      <div class="BI">
+        <div class="toggleDiv" data-target="content2"><h1>Ferramentas de Business Intelligence (BI) para Data Warehouses</h1></div>
+          
+          <div id="content2" class="content hidden">
+            <p>Com um Data Warehouse (DW) repleto de informações valiosas, o próximo passo é escolher a ferramenta certa de BI para transformá-lo em insights acionáveis. A melhor escolha depende de suas necessidades específicas</p>
+            <div class="ferramentasBi">
             </div>
+          
+            <h1>Data Mart</h1>
+              <p>Um data mart é um subconjunto focado de um Data Warehouse (DW), projetado para atender às necessidades de análise de um departamento ou área de negócio específica. Pense nele como um mini-DW com dados relevantes para um grupo específico, como vendas, marketing, finanças ou operações.</p>
+          
+              <h1>Data Mining</h1>  
+            <p>O data mining, também conhecido como mineração de dados, é o processo de extrair informações valiosas e padrões ocultos de grandes conjuntos de dados. É como procurar pepitas de ouro em uma mina, mas em vez de terra e pedras, você está vasculhando números, textos e imagens para encontrar insights que possam ser usados para melhorar decisões, otimizar processos e impulsionar o sucesso do seu negócio.</p>  
+          
+            <h1>Processamento Analítico Online(OLAP)</h1>
+            <p>Imagine o OLAP como um explorador de dados. Ele foca em analisar grandes volumes de informações históricas, reunidas de diversas fontes, para identificar padrões e tendências.</p>
+          
+            <ul>
+              <li>Objetivo: Auxiliar na tomada de decisões estratégicas baseadas em insights valiosos.</li>
+              <li>Dados: Utiliza dados agregados (soma, média, etc.), permitindo análises multidimensionais.</li>
+              <li>Operações: Realiza consultas complexas para explorar os dados por diferentes ângulos (região, produto, período, etc.).</li>
+            </ul>
+          
+            <h1>Processamento de Transações Online(OLTP)</h1>
+              <p>Pense no OLTP como o caixa registradora digital de uma empresa. Ele é responsável pelo processamento rápido e preciso de transações individuais em tempo real.</p>
+            
+            <ul>
+              <li>Objetivo: Garantir a eficiência e confiabilidade das operações diárias.</li>
+              <li>Dados: Trabalha com dados transacionais (cada venda, cada registro de entrada e saída de estoque), provenientes de uma única fonte.</li>
+              <li>Operações: Prioriza a inserção, atualização e deleção de dados de forma consistente e segura.</li>
+            </ul>
+            <img class="imagemOLPT" src="/AulaDataWarehouse/imagens/olapvsOLTP.png" alt="">
+          
+          </div>
+      </div>
+      <div class="datamarketing">
+        <div class="toggleDiv" data-target="content3"><h1>DATABASE MARKETING</h1></div>
+        <div id="content3" class="content hidden">
+          <p>Database Marketing é uma estratégia de marketing que se baseia no uso de um banco de dados de clientes para direcionar campanhas de marketing de forma mais eficaz. Ao coletar e analisar dados sobre o comportamento, histórico de compras e preferências dos clientes, as empresas podem segmentar seu público-alvo e personalizar suas mensagens de marketing, aumentando assim a relevância e eficácia das campanhas.</p>
+          <p>Uma das principais vantagens do Database Marketing é a capacidade de criar mensagens altamente segmentadas e direcionadas. Ao entender melhor o perfil e comportamento dos clientes, as empresas podem enviar mensagens personalizadas que são mais propensas a ressoar com cada segmento específico, aumentando a probabilidade de conversão e fidelização.</p>
+          <p> Database Marketing permite às empresas medir com mais precisão o retorno sobre o investimento (ROI) de suas campanhas de marketing. Ao rastrear e analisar as interações dos clientes com as campanhas, as empresas podem identificar quais estratégias são mais eficazes e ajustar suas abordagens de acordo, maximizando assim o ROI de suas atividades de marketing</p>
+          <p> O Database Marketing tem a capacidade de melhorar a fidelização do cliente. Ao personalizar as comunicações com os clientes e oferecer ofertas e promoções relevantes, as empresas podem aumentar a satisfação do cliente e incentivá-los a continuar comprando de forma recorrente.</p>
+          <p> O Database Marketing também pode ajudar as empresas a identificar novas oportunidades de mercado e segmentos de clientes. Ao analisar os dados dos clientes existentes, as empresas podem identificar padrões e tendências que indicam oportunidades de expansão ou novos segmentos de clientes a serem explorados, ajudando assim a impulsionar o crescimento e a inovação.</p>
         </div>
-        <div class="dropmenu">
-            <button class="dropbnt">O que são insights?</button>
-            <div class="dropconteudo">
-                <p>
-                    Insight é um substantivo com origem no idioma inglês e que significa compreensão súbita de alguma coisa ou determinada situação. Ou seja, é basicamente encontrar informações implicítas nos dados.
-                </p>
-                <img class="insight" src="/imagens/insight.jpg" alt="Foto ilustrativa de im insight">
-                <p>A capacidade de entender verdades escondidas etc., especialmente de caráter ou situação” portando um sentido igual a “discernimento” (Allen, 1990, p.)</p>
-            </div>
-        </div>   
-    </nav>
+      </div>
+      <div class="ROI">
+        <div class="toggleDiv" data-target="content4"><h1> Return on Investment (ROI)</h1></div>
+        <div id="content4" class="content hidden">
+          <p>ROI significa Return on Investment, ou Retorno sobre o Investimento em português. É uma métrica usada para avaliar a eficiência e lucratividade de um investimento. O ROI é calculado dividindo o lucro líquido gerado pelo investimento pelo custo do investimento e multiplicando o resultado por 100 para obter a porcentagem. Essa métrica é frequentemente usada por empresas e investidores para comparar a rentabilidade de diferentes investimentos e tomar decisões informadas sobre onde alocar recursos. Um ROI positivo indica que o investimento está gerando lucro, enquanto um ROI negativo indica que o investimento está gerando prejuízo.</p>
+        </div>
+      </div>
+      <div class="ODS">
+        <div class="toggleDiv" data-target="content5"><h1>O que é um Operational Data Store (ODS)</h1></div>
+        <div id="content5" class="content hidden">
+          <p>Um Operational Data Store (ODS) é uma base de dados usada para a integração de dados de várias fontes para atividades operacionais em tempo real ou quase real. Diferente de um Data Warehouse, que é geralmente otimizado para consultas analíticas e relatórios, um ODS é projetado para operações rápidas e frequentes, como atualizações, inserções e consultas de dados recentes.</p>
+          <h1> DIFERENÇAS ENTRE ODS E DATA WAREHOUSE</h1>
+          <p class="odsTexto">O ODS é voltado para operações diárias e acesso rápido a dados atuais, enquanto o Data Warehouse é orientado para análises históricas e relatórios.</p>
+          <p class="odsTexto">O ODS é atualizado em tempo real, enquanto o Data Warehouse pode ser atualizado em intervalos definidos (por exemplo, diariamente ou semanalmente).</p>
+        </div>
+      </div>
+      <script src="/script.js"></script>
+      
 
-    <footer>
-        <!-- criador do modelo de botões -->
-        <!-- https://uiverse.io/wilsondesouza/brave-earwig-75 -->
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- <footer>
+         criador do modelo de botões -->
+        <!-- https://uiverse.io/wilsondesouza/brave-earwig-75 
         <ul class="example-2">
             <li class="icon-content">
               <a
@@ -53,7 +114,7 @@
                   xml:space="preserve"
                 >
                   <path
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169h1.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h1.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
                     fill="currentColor"
                   ></path>
                 </svg>
@@ -109,6 +170,6 @@
             </li>
           </ul>
           
-    </footer>
+    </footer> -->
 </body>
 </html>
