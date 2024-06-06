@@ -17,14 +17,18 @@ header{
     font-size: 25px;
     font-family: "Freeman", sans-serif;
 }
-.datawarehouse,.BI,.datamarketing, .ROI, .ODS{
+.corpo,.datawarehouse,.BI,.datamarketing, .ROI, .ODS{
  display: flex;
+ font-size: larger;
+ text-align: center;
  flex-direction: column;
  align-items: center;
- padding: 50px;
- margin-left: 20%;
-  margin-right: 20%;
-  background-color: darkgrey;
+ justify-content: center;
+ padding-top: 50px;
+ margin-left: 13%;
+ margin-right: 10%;
+ background-color: darkgrey;
+ border-radius: 3px;
 }
 .odsTexto{
   padding-left: 10%;
@@ -54,9 +58,9 @@ header{
 .content {
   margin-top: 10px;
   padding: 10px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   background-color: darkgrey;
-  width: 80%;
+  width: 90%;
   
 }
 .imagemOLPT{
