@@ -63,6 +63,29 @@ header{
   width: 600px;
   margin-left: 3%;
 }
+@media (max-width: 768px) {
+  .toggleDiv {
+      padding: 10px;
+      font-size: 16px;
+  }
+
+  .content {
+      padding: 10px;
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .toggleDiv {
+      padding: 8px;
+      font-size: 14px;
+  }
+
+  .content {
+      padding: 8px;
+      font-size: 12px;
+  }}
+
 
 /* ul {
     list-style: none;
@@ -163,4 +186,4 @@ header{
     position: absolute;
     bottom: 15px;
     width: 100%;
-  } */
+  } 
